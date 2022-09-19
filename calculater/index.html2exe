@@ -1,0 +1,12 @@
+<convert2exe>
+    <uacLevel>asInvoker</uacLevel>
+    <launcher>C:\Users\HP\AppData\Local\Adersoft\Vbsedit\x64\html64c_registry.exe</launcher>
+    <folder>E:\web work\calculater\app</folder>
+    <dependencies>
+        <dependency>backspaceArrow.png</dependency>
+        <dependency>calc.js</dependency>
+        <dependency>mainBackground.html</dependency>
+        <dependency>mainBackground.jpg</dependency>
+        <dependency>style.css</dependency>
+    </dependencies>
+</convert2exe>

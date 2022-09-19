@@ -1,0 +1,242 @@
+body{
+    margin: 0px;
+}
+
+
+#mainFrame{
+    position: relative;
+    width: 357.33px;
+    height: 465px;
+    margin: auto;
+    margin-top: 60px;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+button{
+    text-decoration: none;
+    outline: none;
+    border-radius: 11px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+}
+
+input{
+    display: block;
+    outline: none;
+}
+
+#mainBackground{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    border: none;
+}
+
+.numbers{
+    background: #000000;
+}
+
+.operator{
+    background: #1A5B77;
+}
+
+.percent{
+    position: absolute;
+    width: 83px;
+    height: 67px;
+    left: 182px;
+    top: 103.35px;
+}
+
+.doubleZero{
+    position: absolute;
+    width: 83px;
+    height: 67px;
+    left: 93.33px;
+    top: 392.67px;
+}
+
+.zero{
+    position: absolute;
+    width: 83px;
+    height: 67px;
+    left: 5.33px;
+    top: 392.67px;
+}
+
+.point{
+    position: absolute;
+    width: 83px;
+    height: 67px;
+    left: 182px;
+    top: 392.67px;
+}
+
+.one{
+    position: absolute;
+    width: 83px;
+    height: 67px;
+    left: 5.33px;
+    top: 320.34px;
+}
+
+.two{
+    position: absolute;
+    width: 83px;
+    height: 67px;
+    left: 93.33px;
+    top: 320.34px;
+}
+
+.three{
+    position: absolute;
+    width: 83px;
+    height: 67px;
+    left: 182px;
+    top: 320.34px;
+}
+
+.four{
+    position: absolute;
+    width: 83px;
+    height: 67px;
+    left: 5.33px;
+    top: 248.01px;
+}
+
+.five{
+    position: absolute;
+    width: 83px;
+    height: 67px;
+    left: 93.33px;
+    top: 248.01px;
+}
+
+.six{
+    position: absolute;
+    width: 83px;
+    height: 67px;
+    left: 182px;
+    top: 248.01px;
+}
+
+.seven{
+    position: absolute;
+    width: 83px;
+    height: 67px;
+    left: 5.33px;
+    top: 175.68px;
+}
+
+.eight{
+    position: absolute;
+    width: 83px;
+    height: 67px;
+    left: 93.33px;
+    top: 175.68px;
+}
+
+.nine{
+    position: absolute;
+    width: 83px;
+    height: 67px;
+    left: 182px;
+    top: 175.68px;
+}
+
+.backspace{
+    position: absolute;
+    width: 83px;
+    height: 67px;
+    left: 93.33px;
+    top: 103.35px;
+    border: none;
+    background: #1A5B77;
+    border-radius: 11px;
+}
+
+.Clear{
+    position: absolute;
+    width: 83px;
+    height: 67px;
+    left: 5.33px;
+    top: 103.35px;
+}
+
+.minus{
+    position: absolute;
+    width: 83px;
+    height: 67px;
+    left: 270.66px;
+    top: 248.01px;
+}
+
+.plus{
+    position: absolute;
+    width: 83px;
+    height: 67px;
+    left: 270.66px;
+    top: 320.34px;
+}
+
+.divide{
+    position: absolute;
+    width: 83px;
+    height: 67px;
+    left: 270.66px;
+    top: 103.35px;
+}
+
+.multiply{
+    position: absolute;
+    width: 83px;
+    height: 67px;
+    left: 270.66px;
+    top: 175.68px;
+}
+
+.equals{
+    position: absolute;
+    width: 83px;
+    height: 67px;
+    left: 270.66px;
+    top: 392.67px;
+    background: linear-gradient(180deg, #1A5B77 0%, rgba(255, 255, 255, 0) 100%), #3FD5EA;
+}
+
+.content{
+    position: absolute;
+    height: 90px;
+    width: 350px;
+    border: none;
+    background: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: right;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: Roboto;
+    padding-top: 40px;
+    overflow-x: auto;}
+
+.flipped, .flipped .content{ 
+    transform: rotateX(90deg); 
+}
+
+.backspaceArrow{
+    height: 36px;
+    align-content: center;
+    padding: 13px;
+}
+
+button:hover{
+    background-color: #b3b3b3;
+    transition: 100ms ease-in-out;
+    color: black;
+}

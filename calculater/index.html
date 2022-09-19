@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="calc.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.0.0/math.js" integrity="sha512-AgG5/Jq2FPT3JPEiEKR4sITq6Xq3unqCO9GvTtfWraQ7+mL4zsOZJch5prtdwX0l3amDxjKkD+uY3dVSJz+SDA==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="papaFrame">
+        <iframe id="mainBackground" src="mainBackground.html"></iframe>
+        <div id="mainFrame">
+            <div class="space flipped"><div class="content">0</div></div>
+            <button class="numbers point" type="button">.</button>
+            <button class="numbers doubleZero" type="button">00</button>
+            <button class="numbers zero" type="button" onclick="numClick(0)">0</button>
+            <button class="numbers one" type="button" onclick="numClick(1)">1</button>
+            <button class="numbers two" type="button" onclick="numClick(2)">2</button>
+            <button class="numbers three" type="button" onclick="numClick(3)">3</button>
+            <button class="numbers four" type="button" onclick="numClick(4)">4</button>
+            <button class="numbers five" type="button" onclick="numClick(5)">5</button>
+            <button class="numbers six" type="button" onclick="numClick(6)">6</button>
+            <button class="numbers seven" type="button" onclick="numClick(7)">7</button>
+            <button class="numbers eight" type="button" onclick="numClick(8)">8</button>
+            <button class="numbers nine" type="button" onclick="numClick(9)">9</button>
+            <button class="operator plus" type="button" onclick="operatorClick('+')">+</button>
+            <button class="operator minus" type="button" onclick="operatorClick('-')">-</button>
+            <button class="operator multiply" type="button" onclick="operatorClick('*')">*</button>
+            <button class="operator divide" type="button" onclick="operatorClick('/')">/</button>
+            <button class="operator percent" type="button" onclick="operatorClick('%')">%</button>
+            <button class="operator equals" type="button" onclick="equalsClick()">=</button>
+            <button class="operator Clear" type="button" onclick="allClear()">C</button>
+            <button class="operator backspace" type="button" onclick="toClear()"><img class="backspaceArrow" src="backspaceArrow.png" alt=""></button>
+        </div>
+    </div>
+</body>
+
+</html>
+
